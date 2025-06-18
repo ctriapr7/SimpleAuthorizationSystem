@@ -1,6 +1,6 @@
 
 const jwt = require('jsonwebtoken');
-const { users, User } = require('../models/User');
+const { users, User } = require('../model/user');
 
 const JWT_SECRET = process.env.JWT_SECRET;
 const JWT_EXPIRATION_TIME = process.env.JWT_EXPIRATION_TIME || '10m';
